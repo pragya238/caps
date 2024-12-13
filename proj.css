@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'port';
+    src: url(Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'pragya';
+    src: url(Outfit/Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color: #080808;
+    width: 1440px;
+    height: 3709px;
+    min-height: 900px;
+    top: -1392px;
+    left: -124px;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+.nav{
+    display: flex;
+    background-color: #C7C7C733;
+    border-radius: 20px;
+    height: 80px;
+    width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 36px;
+
+}
+.button{
+    display: flex;
+    font-family: 'pragya';
+    font-size: 17px;
+    gap: 36px;
+    color: #DEDEDE;
+}
+.heading{
+    font-family: 'port';
+    font-size: 42px;
+    color: #DEDEDE;
+}
+.contact{
+    font-family: 'pragya';
+    font-size: 17px;
+    color: #DEDEDE;
+}
+.explore{
+    color: #DEDEDE;
+    width: 1344px;
+    font-size: 120px;
+    font-family: 'pragya';
+    font-weight: 600;
+    line-height: 120px;
+    align-items: center;
+    text-align: center;
+}
+.main img{
+    width: 1344px;
+    height: 672px;
+    border-radius: 28px;
+    border: 1.5px #00000000;
+    align-items: center;
+}
+.pics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 8px;
+    width: 100%;
+    row-gap: 48px;
+    margin: 25px;
+}
